@@ -349,13 +349,29 @@ element.style {
 .p-button a{
     color: #6278df;
 }
-.pricing-list:hover .p-button{
+.pricing-list:hover .p-button {
     background-color: #6278df;
-    color:#fff;
+    
 }
-.p-button:hover{
-    background-color: #010101;
+.pricing-items:hover{
+    background-color: #6278df;
     color: #fff;
+    transition: .4s;
+}
+
+.pricing-list:hover a{
+    color: #fff;
+    transition: .4s;
+    
+}
+.p-button:hover {
+    background-color: #010101!important;
+    color: #fff!important;
+    transition: .4s;
+}
+.p-button:hover a{
+    color: #fff;
+
 }
 /* member */
 .member{
